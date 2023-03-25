@@ -2026,7 +2026,7 @@
 									className: "jsx-7078ffb922cb3c38 text-gray-500 text-center",
 									children: [(0, n.jsx)("p", {
 										className: "jsx-7078ffb922cb3c38 text-sm",
-										children: "No Chats Yet"
+										children: "TESTANDO No Chats Yet"
 									}), (0, n.jsx)("p", {
 										className: "jsx-7078ffb922cb3c38 text-xs",
 										children: "Click the button above to start a new chat"
