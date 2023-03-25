@@ -1675,7 +1675,7 @@
 					children: [(0, s.jsx)(E.Lfi, {
 						className: "w-4 h-4 mr-1 group-hover:scale-125 transition-all"
 					}), (0, s.jsx)("span", {
-						children: "New Chat"
+						children: "Inicie uma conversa"
 					})]
 				}, "new-chat")), (0, s.jsx)("div", {
 					className: "my-4 text-center w-full flex items-center justify-center flex-wrap gap-2 px-4",
