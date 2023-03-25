@@ -228,8 +228,8 @@
 					}), (0, n.jsxs)("p", {
 						className: "my-4 text-sm",
 						children: [(0, n.jsx)("b", {
-							children: "TypingMind Beta"
-						}), " is ending soon! To continue using the app with all the premium features, you need to enter a license key."]
+							children: "TESTANDO TypingMind Beta"
+						}), " TESTANDO TESTANDO is ending soon! To continue using the app with all the premium features, you need to enter a license key."]
 					}), (0, n.jsxs)("div", {
 						className: "my-4 text-center flex items-center justify-center flex-wrap gap-2",
 						children: [(0, n.jsx)("button", {
