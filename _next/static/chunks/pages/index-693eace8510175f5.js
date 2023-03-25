@@ -892,7 +892,7 @@
 					}), (0, n.jsxs)("div", {
 						className: "my-2",
 						children: ["You will receive a receipt and a ", (0, n.jsx)("b", {
-							children: "TESTAND"
+							children: "license key"
 						}), " in your email shortly. Enter your license key here to save it:"]
 					}), (0, n.jsx)("div", {
 						className: "my-4",
