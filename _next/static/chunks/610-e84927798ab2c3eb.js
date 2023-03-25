@@ -626,7 +626,7 @@
 						children: [(0, s.jsx)(M.q1E, {
 							className: "w-4 h-4"
 						}), (0, s.jsx)("span", {
-							children: "Select Character"
+							children: "TESTANDO Select Character"
 						})]
 					}), (0, s.jsxs)(C.Z, {
 						wide2: !0,
