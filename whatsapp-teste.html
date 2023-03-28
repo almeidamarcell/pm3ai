@@ -1,46 +1,28 @@
 <HTML>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="floating-wpp.min.js"></script>
+<link rel="stylesheet" href="floating-wpp.min.css">
 <HEAD>
 
 <TITLE>Piloto PM3 IA</TITLE>
 
 </HEAD>
 
-<BODY BGCOLOR="FFFFFF">
+<body>
+  <div id="myDiv"></div>
+</body>
+<script type="text/javascript">
+  $(function () {
+    $('#myDiv').floatingWhatsApp({
+      phone: '5491133359850'
+    });
+  });
+  
+  $('#myDiv').floatingWhatsApp({
+    phone: '5491133359850',
+    popupMessage: 'Hello, how can we help you?',
+    showPopup: true
+});
+</script>
 
-<HR>
-<div>
-    <script type="text/javascript" src="https://cdn.mvmcloud.net/mvm-wapp-3.1.1.min.js"></script>
-    <div id="WAButton"></div>
-    <script type="text/javascript">
-        jQuery('#WAButton').mvmWhatsApp({
-            cid: "d3cc2fd9e4c7440b933997627f7cf083",
-            phone: "5591988576802", 
-            headerTitle: "Form title", 
-            popupMessage: "Message to your website visitor",
-            showPopup: true, 
-            headerColor: "#128C7E",
-            backgroundColor: "#25D366",
-            position: "right", 
-            size: "60px",
-            useFirstLastName: true,
-            firstNameLabel: "Name",
-            lastNameLabel: "Last name",
-            emailLabel: "Email",
-            phoneLabel: "Mobile number",
-            phoneHint: "Mobile with country and area code e.g.: 12223334444",
-            messageLabel: "Enter your message",
-            errorMsg: "Please, fill the required fields",
-            btnSendText: "Send Message",
-            btnSendColor: "#128C7E",     
-            requiredData: true,
-        });
-      </script>
-</div>
-
-
-
-<HR>
-
-</BODY>
 
